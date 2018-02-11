@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/black_gray"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+
+    <exploretale.android.exploretale.com.exploretale.utils.CustomViewPager
+        android:id="@+id/vpHomeView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/gray_alpha"
+        android:weightSum="2">
+
+        <ImageView
+            android:id="@+id/ivDashboard"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@color/green"/>
+
+        <ImageView
+            android:id="@+id/ivProfile"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@color/yellow"/>
+
+    </LinearLayout>
+
+</LinearLayout>

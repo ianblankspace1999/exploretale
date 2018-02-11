@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black_gray"
+    android:paddingTop="@dimen/spacing_very_large"
+    tools:context="exploretale.android.exploretale.com.exploretale.activities.SplashActivity">
+
+
+    <ImageView
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_marginTop="90dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/spacing_extra_large"
+        android:text="@string/app_tagline"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:layout_marginTop="@dimen/spacing_very_large"/>
+
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_marginTop="@dimen/spacing_very_large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Facebook Login"
+        style="@style/Button.Primary"
+        android:textSize="@dimen/spacing_large"
+        android:layout_gravity="center"/>
+
+
+
+</LinearLayout>
