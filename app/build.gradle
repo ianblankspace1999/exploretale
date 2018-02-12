@@ -64,4 +64,7 @@ dependencies {
     // Epoxy
     compile 'com.airbnb.android:epoxy:2.9.0'
     annotationProcessor 'com.airbnb.android:epoxy-processor:2.9.0'
+
+//    CircleImageView
+    compile 'de.hdodenhof:circleimageview:2.1.0'
 }
